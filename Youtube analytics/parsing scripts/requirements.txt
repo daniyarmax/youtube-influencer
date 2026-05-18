@@ -1,0 +1,19 @@
+# YouTube Tech Channel Research Tool — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# YouTube Data API v3
+google-api-python-client==2.134.0
+
+# HTTP requests
+requests==2.32.3
+
+# HTML parsing (for optional scraping)
+beautifulsoup4==4.12.3
+lxml==5.2.2
+
+# Data manipulation and export
+pandas==2.2.2
+openpyxl==3.1.4          # Excel .xlsx export
+
+# Environment variables (.env file support)
+python-dotenv==1.0.1
